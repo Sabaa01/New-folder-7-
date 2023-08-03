@@ -1295,6 +1295,7 @@ i{
 }
 
 .aboutus-s4{
+    margin-bottom: 100px;
     .team{
         color: #7EB693;
 font-family: Yellowtail;
@@ -1323,7 +1324,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 165.4%; /* 29.772px */
-margin-bottom: 20px;
+margin-bottom: 40px;
 
     
 }
@@ -1331,10 +1332,14 @@ margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
   
-  
+
 
 
  .bg-team2{
+    &:hover{
+        transform: scale(1.1);
+        transition: all linear 1s;
+    }
     width: 400px;
     height: 600px;
     background-image: url(../img/Photo\ \(8\).jpg);
@@ -1354,7 +1359,7 @@ margin-bottom: 20px;
     .farmer-flex{
         display: flex;
         i{
-          margin-left: 2cqh;
+          margin-left: 10px;
             margin-top: 10px;
         }
     }
@@ -1371,6 +1376,10 @@ margin-bottom: 20px;
   }
 
   .bg-team3{
+    &:hover{
+        transform: scale(1.1);
+        transition: all linear 1s;
+    }
     width: 400px;
     height: 600px;
     background-image: url(../img/Photo\ \(9\).jpg);
@@ -1412,7 +1421,7 @@ margin-bottom: 20px;
     background-color: white;
     background-repeat: no-repeat;
     border-radius: 20px;
-    box-shadow: 0px 40px 20px grey ;
+    box-shadow: 0px 10px 20px grey ;
     .giovani{
         color: #274C5B;
     font-family: Roboto;
@@ -1451,7 +1460,10 @@ margin-bottom: 20px;
         background-color: white;
         background-repeat: no-repeat;
         border-radius: 20px;
-
+        &:hover{
+            transform: scale(1.1);
+            transition: all linear 1s;
+        }
 .giovani{
     color: #274C5B;
 font-family: Roboto;
@@ -1498,5 +1510,89 @@ margin-right: 230px;
 }
     }
 }
+
+}
+
+.aboutus-s5{
+    margin-bottom: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: $text-color;
+    .aboutus-text{
+        color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+padding-top: 100px;
+    }
+    .flex-offer{
+
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+    .offers{
+        color: #FFF;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+margin-bottom: 30px;
+
+    }
+    .text-flex{
+        
+        display: flex;
+        justify-content: space-around;
+        h2{
+            color: #FFF;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+animation: bumpAnimation 1s ease-in-out infinite;    
+        }
+    }
+    .bg-offer{
+        background-image: url(../img/Photo\ \(10\).jpg);
+        width: 335px;
+        height: 300px;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        animation: bumpAnimation 1s ease-in-out infinite;    
+    }
+    .bg-offer2{
+        background-image: url(../img/Photo\ \(11\).jpg);
+        width: 310px;
+        height: 300px;
+        background-repeat: no-repeat;
+        animation: bumpAnimation 1s ease-in-out infinite;    
+        border-radius: 50px;
+    }
+    .bg-offer3{
+        background-image: url(../img/Photo\ \(12\).jpg);
+        width: 310px;
+        height: 300px;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        animation: bumpAnimation 1s ease-in-out infinite;    
+    }
+    .bg-offer4{
+        background-image: url(../img/png-transparent-dumbbells-dumbell-barbell-dumbells-gym-gym-equipment-3d-icon-thumbnail-removebg-preview.png);
+        width: 335px;
+        background-size: 320px;
+        background-color: white;
+        height: 300px;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        animation: bumpAnimation 1s ease-in-out infinite;    
+    }
+
 
 }
