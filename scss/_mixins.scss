@@ -1,0 +1,24 @@
+@mixin font{
+    font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+@mixin shop{
+    background-color: #F9F8F8;
+    border: none;
+    border-radius: 45px;
+    width: 300px;
+height: 400px;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+
+}
+
+@mixin shop-text{
+color: $text-color;
+margin-top: 330px;
+margin-left: 31px;
+
+}
