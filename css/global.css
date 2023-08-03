@@ -1285,4 +1285,194 @@ footer .flex .footer-div3 ul li {
 }
 .about-us-s3 .text {
   margin-left: 30px;
+}
+
+.aboutus-s4 .team {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.aboutus-s4 .team-h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutus-s4 .dummy-text-aboutus {
+  color: #525C60;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+  margin-bottom: 20px;
+}
+.aboutus-s4 .flex-team {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutus-s4 .flex-team .bg-team2 {
+  width: 400px;
+  height: 600px;
+  background-image: url(../img/Photo\ \(8\).jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.aboutus-s4 .flex-team .bg-team2 .giovani {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 500px;
+  margin-bottom: 5px;
+}
+.aboutus-s4 .flex-team .bg-team2 .farmer-flex {
+  display: flex;
+}
+.aboutus-s4 .flex-team .bg-team2 .farmer-flex i {
+  margin-left: 2cqh;
+  margin-top: 10px;
+}
+.aboutus-s4 .flex-team .bg-team2 .designer {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 170px;
+}
+.aboutus-s4 .flex-team .bg-team3 {
+  width: 400px;
+  height: 600px;
+  background-image: url(../img/Photo\ \(9\).jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.aboutus-s4 .flex-team .bg-team3 .giovani {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 500px;
+  margin-bottom: 5px;
+}
+.aboutus-s4 .flex-team .bg-team3 .farmer-flex {
+  display: flex;
+}
+.aboutus-s4 .flex-team .bg-team3 .farmer-flex i {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.aboutus-s4 .flex-team .bg-team3 .farmer2 {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 220px;
+}
+.aboutus-s4 .flex-team .bg-team2 {
+  width: 400px;
+  height: 600px;
+  background-image: url(../img/Photo\ \(8\).jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  box-shadow: 0px 40px 20px grey;
+}
+.aboutus-s4 .flex-team .bg-team2 .giovani {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 500px;
+  margin-bottom: 5px;
+}
+.aboutus-s4 .flex-team .bg-team2 .farmer-flex {
+  display: flex;
+}
+.aboutus-s4 .flex-team .bg-team2 .farmer-flex i {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.aboutus-s4 .flex-team .bg-team2 .designer {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 170px;
+}
+.aboutus-s4 .flex-team .bg-team {
+  width: 400px;
+  height: 600px;
+  background-image: url(../img/Photo\ \(7\).jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.aboutus-s4 .flex-team .bg-team .giovani {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 500px;
+  margin-bottom: 5px;
+}
+.aboutus-s4 .flex-team .bg-team .farmer-flex {
+  display: flex;
+}
+.aboutus-s4 .flex-team .bg-team .farmer-flex i {
+  margin-left: 2cqh;
+  margin-top: 10px;
+}
+.aboutus-s4 .flex-team .bg-team .farmer {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 230px;
+}
+.aboutus-s4 .flex-team .bg-team .designer {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 170px;
+}
+.aboutus-s4 .flex-team .bg-team .farmer2 {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 200px;
 }/*# sourceMappingURL=global.css.map */
