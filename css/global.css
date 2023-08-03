@@ -1188,7 +1188,47 @@ footer .flex .footer-div3 ul li {
   margin-bottom: 20px;
 }
 
+.about-us-s3 .flex3 {
+  display: flex;
+  justify-content: space-around;
+}
+.about-us-s3 .left {
+  margin-left: 42px;
+  margin-bottom: 45px;
+}
+.about-us-s3 .left2 {
+  margin-left: 50px;
+  margin-bottom: 22px;
+}
+.about-us-s3 .left3 {
+  margin-left: 65px;
+  margin-bottom: 45px;
+}
+.about-us-s3 .left4 {
+  margin-left: 80px;
+  margin-bottom: 45px;
+}
+.about-us-s3 .return {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.about-us-s3 .return-p {
+  color: #525C60;
+  width: 184px;
+  height: 115px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%;
+}
 .about-us-s3 .text-div-about-us {
+  margin-bottom: 30px;
   width: 671px;
   margin-left: 260px;
 }
@@ -1218,6 +1258,7 @@ footer .flex .footer-div3 ul li {
   line-height: 165.4%; /* 29.772px */
 }
 .about-us-s3 .backgorund-color {
+  margin-bottom: 20px;
   border-radius: 49px;
   background: #ECECEC;
   width: 300px;
