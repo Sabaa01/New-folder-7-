@@ -1501,7 +1501,7 @@ margin-right: 230px;
 }
 .farmer2{
     color: #7EB693;
-    font-family: Yellowtail;
+    font-family: Noto Serif Georgian;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -1595,4 +1595,133 @@ animation: bumpAnimation 1s ease-in-out infinite;
     }
 
 
+}
+
+
+
+// services
+
+.services-s1{
+    width: 1680px;
+    height: 450px;
+    background-image: url(../img/Photo\ \(13\).png);
+    h2{
+        text-align: center;
+        color: #274C5B;
+font-family: Roboto;
+font-size: 150px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;padding-top: 150px;
+    }
+    margin-bottom: 100px;
+}
+
+.services-s2{
+    h3{
+        color: #7EB693;
+font-family: Noto Serif Georgian;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+    }
+    .better-life{
+        color: #274C5B;
+text-align: center;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+    }
+
+    .services-flex{
+        display: flex;
+justify-content: space-evenly;
+    }
+    .diary{
+        color: #274C5B;
+        font-family: Roboto;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;  
+        text-align: right;
+    }
+    .diary2{
+        color: #274C5B;
+        font-family: Roboto;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;  
+ 
+    }
+    .text-dummy{
+        color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; 
+margin-bottom: 50px;
+
+text-align: right;
+    }
+    .text-dummy2{
+        color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; 
+
+margin-bottom: 50px;
+    }
+.services-main{
+    margin-top: 100px;
+}
+    .services-div{
+        width: 396px;
+      
+.left{
+    margin-left: 378px;
+
+}
+
+    }
+    .img-div{
+        width: 400px;
+    }
+    img{
+        width: 500px;
+    }
+    .hover{
+        &:hover{
+            transform: scale(1.1);
+            transition: all linear 1s;
+        }
+    }
+    button{ 
+        cursor: pointer;
+        background-color: white;
+        width: 200px;
+        height: 70px;
+        border: solid 2px;
+        border-radius: 16px;
+        border-color: $text-color;
+        margin-left: 730px;
+
+        h2{
+            color: #274C5B;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+        }
+    }
 }
