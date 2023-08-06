@@ -116,7 +116,7 @@ line-height: normal;
  margin-left: 20px;
  margin-right: 50px;
     width: 100px;
-    height: 100px;
+    height:100px;
 }
 .logo-div{
 display: inline-block;
@@ -442,7 +442,7 @@ margin-bottom: 150px;
 .span-1{
    color: #B8B8B8;
    margin-right: 10px;
-   
+   text-decoration: line-through;
 }
 
 
@@ -1014,6 +1014,18 @@ line-height: 165%;
         .footer-div2{
             width: 543px;
             height: 246px;
+            img{
+                width: 190px;
+            
+            }
+            .tbc-hover{
+                display: flex;
+justify-content: center;
+                :hover{
+                    transform: scale(1.1);
+                    transition: 1s;
+                }
+            }
             h2{
                 color: #274C5B;
 font-family: Roboto;
@@ -1605,10 +1617,10 @@ animation: bumpAnimation 1s ease-in-out infinite;
         text-align: center;
         color: #274C5B;
 font-family: Roboto;
-font-size: 150px;
+font-size: 200px;
 font-style: normal;
 font-weight: 800;
-line-height: normal;padding-top: 150px;
+line-height: normal;    padding-top: 56px;
     }
     margin-bottom: 100px;
 }
@@ -1772,7 +1784,10 @@ margin-bottom: 20px;
     }
 }
 
-
+.bar{
+    width: 1px;
+    height: 1px;
+}
 // single-services
 
 .single-services-s1{
@@ -2613,10 +2628,678 @@ line-height: normal;
                 background-size: 329px;
             }
             .s7-bg2{
+                width: 399px;
                 background-size: 253px;
+            }
+            .s7-bg3{
+                background-size: 430px;
+            }
+       h2{
+        margin-left: 46px;
+       }
+
+    }
+.s8{
+.flex{
+    .bg-text2-s8 {
+        margin-left: 526px;
+        
+    }    
+    .bg{
+        .s8-bg-text{
+            box-shadow: 0px 20px 10px grey;
+    background-color: white;
+    width: 428px;
+    height: 230px;
+    position: absolute;
+    top: 9364px;
+    left: 11px;
+    border-radius: 20px;
+}
+        }
+    }
+}
+.s9{
+    .background{margin-left: 19px;}
+}
+footer{
+    .flex{
+        .footer-div1{
+            margin-left: 0px;
+        }
+    }
+}
+
+.about-us-s1{
+    .about-us-header{
+      
+        text-align: left;
+    }
+}
+.about-us-s2{
+    .flex{
+    .food{
+        width: 604px;
+    height: 611px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px
+        ;
+        width: 403px;
+    }
+    }
+
+}
+.about-us-s3{
+    .text-div-about-us{
+        margin-left: 48px;
+    }
+    img{
+        height: 672px;
+    }
+}
+.cart-t{
+    margin-left: 25px;
+}
+.aboutus-s4{
+    .flex-team{
+        flex-direction: column;
+        margin-left: 300px;
+        align-content: space-around;
+    }
+    .bg-team{
+        margin-bottom: 20px;
+    }
+    .bg-team2{
+        margin-bottom: 30px;
+    }
+}
+.aboutus-s5{
+    height: 900px;
+    .bg-offer{
+        width: 304px;
+        margin-bottom: 7px;
+    }
+    .bg-offer4{
+        width: 309px
+    }
+ 
+    .flex-offer{
+        flex-wrap: wrap;
+
+    }
+    .text-flex{
+        h2{
+            color: $text-color;
+        }
+    }
+}
+
+footer{
+    .line{
+        margin-right: 0px;
+    }
+    .line2{
+        margin-right: 0px;
+    
+    }
+}
+
+.services-s2{
+    .img-div{    width: 469px;
+    }
+
+button{
+    margin-left: 407px;
+}}
+.services-s4{
+    div{
+        margin-left: -700px;
+    }
+}
+.contact-us-s2{
+    .contact-us-img{
+        img{
+            width: 413px;
+            height: 497px;
+        }
+    }
+    .contact-us-s2-text{
+        .contact-h2{
+        width: 540px;
+        font-size: 40px;
+    
+        }
+        p{
+            width: 400px;
+        }
+    }
+}
+.contact-us-s3{
+    .contact-us-bg{
+        .contact-us-bg2{
+            margin-left: 259px;
+        }
+    }
+}
+.contact-us-s4{
+    .name-email-input{input{
+        width: 420px;
+    }}
+    .Company-subject-input{
+        input{
+            width: 420px;
+        }
+    }
+    .textarea{
+        margin-left: 20px;
+
+      
+    }
+    textarea{
+        width: 930px;
+    }
+    .send-message{
+        
+
+
+        margin-left: 356px;
+    }
+}
+}
+
+@media(max-width:768px){
+.s7{
+    h2{margin-top: 85px;}
+    height: 840px;
+    .flex{
+     flex-wrap: wrap;
+    }
+    .s7-bg2{
+        width: 495px;
+        background-size: 332px;
+        height: 360px;
+    }
+    .s7-bg3{
+        width: 490px;
+        height: 596px;
+        background-size: 335px;
+    }
+    }
+
+    header{
+        ul{
+            flex-direction: column;
+        }
+
+    }
+    .banana{
+        margin-left: 1px;
+    }
+    .s2{
+        .text-div{
+          .description{
+            width: 264px;
+            height: 62px;
+          }
+          .organic-p{
+            width: 181px;
+            height: 149px;
+        
+          }
+          .quality-p{
+            width: 175px;
+          }
+          input{    margin-left: 70px;}
+        }
+    }
+    .s3{
+        .shop-div-main{
+            width: 613.361px;
+          
+        }
+        .shop-button{
+            margin-left: 278px;
+            margin-top: 30px;
+        }
+    }
+    .s4{
+        .s4-main-div{
+            .profile{
+                margin-left: 335px;
+            }
+            .rate-for-costumer{
+                margin-left: 349px;
+            }
+            .comentar{
+                margin-left: 86px;
+            }
+       .costumer{
+        margin-left: 352px;
+       }
+       .circle{
+        margin-left: 363px;
+    }
+    .cirle-rate{
+        margin-left: 98px;
+    }
+        }
+  
+
+    }
+    .s5{
+        .shop-div-main2{
+            width: 663.361px;
+        }
+    }
+    .s6{
+        .s6-div{
+            left: 145px;
+            top: 7910px
+        ;
+        }
+    }
+    .s8{
+        .s8-traning{
+            margin-top: 100px;
+        }
+        
+        .flex{
+        .bg{
+            .s8-bg-text{
+                box-shadow: 0px 20px 10px grey;
+                background-color: white;
+                width: 361px;
+                height: 230px;
+                position: absolute;
+                top: 10144px;
+                left: 5px;
+                border-radius: 20px;
+            }
+            .bg-text2-s8{
+                margin-left: 393px;
+            }
+        }
+    }}
+    .s9{
+        .background{
+            width: 758px;
+            height: 180px;
+            margin-left: 5px;
+            #comment{
+                margin-left: 358px;
+                width: 236px;
             }
         }
     }
+    .about-us-s2{
+        .flex{
+            margin-bottom
+            .food{
+                width: 349px;
+                height: 419px;
+                margin-top: 30px;
+            }
+        }
+     
+    }
+    .about-us-s3{
+       img{
+        width: 394px;
+       } 
+    }
+.aboutus-s4{
+    .flex-team{
+        margin-left: 193px;
+    }
+}
+.aboutus-s5{
+    height: 900px;
+    .bg-offer{
+        width: 304px;
+        margin-bottom: 7px;
+    }
+    .bg-offer4{
+        width: 309px
+    }
+ 
+    .flex-offer{
+        flex-wrap: wrap;
+
+    }
+    .text-flex{
+        h2{
+            color: $text-color;
+        }
+    }
+}
+.services-s1{
+    h2{
+        text-align: left;
+    }
+}
+.services-s2{
+    img{
+        width: 311px;
+        margin-top: 70px;
+    }
+    button{
+        margin-left: 280px
+    }
+}
+.services-s4{
+    div{
+        margin-left: -863px;
+    }
+}
+.contact-us-s2{
+    .contact-us-img{
+        img{
+            width: 290px;
+        }
+    }
+    .contact-us-s2-text{
+        .contact-h2{
+            width: 438px;
+        }
+    }
+}
+.contact-us-s3{
+    .contact-us-bg{
+        .contact-us-bg2{
+            margin-left: 166px;
+        }
+    }
+}
+.contact-us-s4{
+    .send-message{
+        margin-left: 258px;
+    }
+    textarea{
+        width: 684px;
+    }
+    .name-email-input{
+        input{
+            width: 293px;
+        }
+    }
+    .Company-subject-input{
+        input{
+            width: 293px;
+        }
+    }
+}
+}
+ 
+@media (max-width:480px){
+  
+  header{
+    height: 100px;
+
+    .login-a{
+        margin-left: -103px;
+    }
+    .cart{
+        margin-left: -3px;
+    }
+  }
+    .healty{
+        margin-left: 22px;
+    }
+    .explore-button{
+        margin-left: 22px;
+    }
+    .s2{
+        .img-div{
+            img{
+                width: 194px;
+                margin-top: 200px;
+            }
+        }
+    }
+    .s3{
+        .shop-div-main{
+            width: 297.361px;
+        }
+        .shop-button{
+            margin-left: 140px;
+        }
+    }
+    .s4{
+        .s4-main-div{
+            .costumers-h2{
+                margin-bottom: 24px;
+            }
+            .profile{
+                margin-left: 190px;
+            }
+            .rate-for-costumer{
+                margin-left: 203px;
+            }
+       .costumer{
+        margin-left: 209px;
+       }
+       .circle{
+        margin-left: 223px;
+        
+    margin-bottom: 50px;
+
+       }
+       .cirle-rate{
+        width: 400px;
+        margin-left: 45px;
+       }
+        }
+    }
+   .s5{    height: 2021px;
+    .shop-div-main2{
+        width: 340.361px;
+    }
+    .traning{
+        margin-left: 118px;
+        font-size: 30px;
+    }
+   }
+    .s6{
+        .s6-div{
+            width: 490px;
+            left: -5px;
+            top: 10540px;
+        }
+    }
+    .s7{
+        .flex{
+            left: -32px;
+            top: 10540px;
+        }
+    }
+    .s8{
+        .flex{
+            flex-wrap: wrap;
+            .bg{
+                .s8-bg-text{
+                    top: 12756px;
+                    left: 68px;
+                }
+                .bg-text2-s8{
+                    margin-top: 800px;
+                  
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+    .s9{
+        .background{
+            height: 232px;
+            #comment{
+                margin-left: 9px;
+            }
+            #mail{
+                margin-top: 120px;
+                margin-left: -342px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    footer{
+        .flex{
+            flex-wrap: wrap;
+            .footer-div2 p{
+                margin-bottom: 10px;
+            }
+            .footer-div3{
+                width: 477px;
+            }
+        }
+    }
+    .about-us-s1{
+        .about-us-header{
+            
+    font-size: 80px;
+
+        }
+
+
+
+    }
+    .about-us-s2{
+        .flex{
+            .food{
+                width: 446px;
+    height: 445px;
+            }
+            flex-wrap: wrap;
+            
+                .text-div1{
+                    margin-left: 60px;
+                    margin-bottom: 50px;
+                }
+            
+        }
+    }
+    .about-us-s3{
+        img{
+            width: 432px;
+        }
+        .flex{
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .flex3{
+            flex-wrap: wrap;
+        }
+    }
+    .aboutus-s4{
+        .flex-team{
+            margin-left: 30px;
+        }
+    }
+    .aboutus-s5{
+        height: 1548px;
+    }
+    .bg-offer2{
+        margin-bottom: 10px;
+    }
+    .bg-offer3{
+        margin-bottom: 10px;
+    }
+    .services-s1{
+        h2{
+            font-size: 95px;
+            padding-top: 141px;
+        }
+    }
+    .services-s2{
+ img{
+    width: 64px;
+    margin-top: 5px;
+ }
+ button{
+    margin-left: 145px;
+ }
+}
+.services-s4{
+    div{
+        margin-left: -1205px;
+
+    }
+p{
+    width: 477px;
+}
+svg{
+    margin-left: 174px;
+}
+}
+.contact-us-s1{
+    height: 195px;
+}
+.contact-us-s2{
+    .contact-us-img{
+        img{
+            width: 411px;
+        }
+    }
+    .contact-flex{
+        flex-wrap: wrap;
+    }
+}
+.contact-us-s3{
+    .contact-us-bg{
+        .contact-us-bg2{
+            margin-left: 7px;
+            width: 450px;
+        
+        }
+    }
+}
+.contact-us-s4{
+    .name-email-input{
+        input{
+            width: 157px;
+        }
+    }
+    .Company-subject-input{
+        input{
+            width: 157px;
+        }
+    }
+    textarea{
+        width: 410px;
+    }
+    .send-message{
+        margin-left: 107px;
+    }
+}
+.news-s2{
+    .bg-news{
+        .news-white-bg{
+            width: 433px;
+            margin-left: 13px;
+        }
+    }
+}
+
+.news-s1{h2{
+    font-size: 70px;
+}}
+
+.bar{
+    width: 50px;
+    height: 50px;
+}
+header{
+    nav{
+        visibility: hidden;
+    }
+}
+}
 
 
 
