@@ -155,7 +155,8 @@ padding-top: 600px
 .explore-button{
     cursor: pointer;;
 }
-.banana{        animation: bumpAnimation 1s ease-in-out infinite;    
+.banana{ 
+           animation: bumpAnimation 1s ease-in-out infinite;    
                     
 border-radius: 20px;
     background-image: url(../img/Photo.jpg);
@@ -175,7 +176,8 @@ h2{ position: absolute;
 }
 }
 
-.fruit{  animation: bumpAnimation 1s ease-in-out infinite;
+.fruit{  
+    animation: bumpAnimation 1s ease-in-out infinite;
    
     border-radius: 20px;
     background-image: url(../img/Photo\ \(1\).jpg);
@@ -444,8 +446,8 @@ margin-bottom: 150px;
 
     .s4-main-div{
         background-image: url(../img/stick6.png);
-        width: 1920px;
-        height: 1100px;
+   height: 1000px;
+        width: 100%;
 
         .costumers-h2{
             color: #274C5B;
@@ -455,7 +457,7 @@ font-size: 50px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-margin-left: 430px;
+text-align: center;
 margin-bottom: 100px;
         }
         .costumers-h3{
@@ -465,7 +467,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-left: 714px;
+text-align: center;
 margin-top: 50px;
 margin-bottom: 30px;
 
@@ -485,7 +487,7 @@ margin-bottom: 30px;
         }
         .comentar{
             color: #525C60;
-margin-left: 550px;
+margin-left: 590px;
 font-family: Open Sans;
 font-size: 18px;
 font-style: normal;
@@ -499,7 +501,7 @@ font-size: 25px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-margin-left: 765px;
+text-align: center;
 
 }
     }
@@ -1642,6 +1644,12 @@ text-align: center;
         display: flex;
 justify-content: space-evenly;
     }
+    a{
+       & :hover{
+            transform: scale(1.1);
+            transition: all linear 1s;
+        }
+    }
     .diary{
         color: #274C5B;
         font-family: Roboto;
@@ -1650,6 +1658,7 @@ justify-content: space-evenly;
         font-weight: 500;
         line-height: normal;  
         text-align: right;
+
     }
     .diary2{
         color: #274C5B;
@@ -1699,12 +1708,7 @@ margin-bottom: 50px;
     img{
         width: 500px;
     }
-    .hover{
-        &:hover{
-            transform: scale(1.1);
-            transition: all linear 1s;
-        }
-    }
+
     button{ 
         cursor: pointer;
         background-color: white;
@@ -1714,6 +1718,11 @@ margin-bottom: 50px;
         border-radius: 16px;
         border-color: $text-color;
         margin-left: 730px;
+        margin-bottom: 100px;
+        &:hover{
+            transform: scale(1.1);
+            transition: all linear 1s;
+        }
 
         h2{
             color: #274C5B;
@@ -1725,3 +1734,529 @@ line-height: normal;
         }
     }
 }
+
+.services-s4{
+    background-image: url(../img/Photo\ \(13\).jpg);
+width: 1680px;
+height: 800px;
+background-size: 1800px;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+
+    h3{
+        color: #7EB693;
+text-align: center;
+font-family: Noto Serif Georgian;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+padding-top: 200px;
+
+    }
+    h2{
+        color: #274C5B;
+text-align: center;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 20px;
+    }
+    p{
+        color: #274C5B;
+text-align: center; 
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+width: 500px;
+margin-bottom: 20px;
+    }
+    svg{
+        margin-left: 190px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+            transition: all linear 1s;
+        }
+    }
+}
+
+
+// single-services
+
+.single-services-s1{
+    background-image: url(../img/EPL-DAIRY-PRODUCTS.jpg);
+    width: 1680px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    margin-bottom: 100px;
+    h2{
+        color: #274C5B;
+font-family: Roboto;
+font-size: 100px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+padding-top: 180px;
+    }
+}
+.single-services-s2{
+    width: 100%;
+    .cow-flex{
+        display: flex;
+        justify-content: center;
+        .cow{
+
+            width: 1200px;
+                }
+    }
+.natural2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+.natural2-p{
+    width: 900px;
+    height: 100px;
+    color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+margin-left: 400px;
+margin-bottom: 90px;
+}
+
+.flex-single-services{
+    display: flex;
+    img{
+        width: 380px;
+        height: 250px;
+    border-radius: 20px;
+    margin-left: 400px;
+    }
+    .diary-products2
+    {
+        margin-left: 0;
+    }
+    .clean-div{
+        margin-left: 50px;
+     
+        background-color: #F9F8F8;
+        width: 500px;
+        height: 250px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .clean-div2{
+        margin-left: 396px;
+        margin-right: 55px;
+     
+        background-color: #F9F8F8;
+        width: 500px;
+        height: 250px;
+        border-radius: 20px;
+    }
+    .clean-product{
+        color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 60px;
+margin-left: 50px;
+margin-bottom: 10px;
+
+    }
+    .clean-p{
+        color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+width: 400px;
+margin-left: 50px;
+    }
+}
+ .healty-services{
+    color: #274C5B;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 400px;
+ }
+ .healty-services-p{
+    color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+width: 800px;
+margin-bottom: 30px;
+margin-left: 400px;
+ }
+ .quality-sup{
+    display: flex;
+    margin-left: 400px;
+    margin-bottom: 100px;
+ }
+ .grey-bg{
+    background-color: #F9F8F8;
+    ;
+    border-radius: 40px;
+    width: 400px;
+    height: 90px;
+    display: flex;
+    margin-right: 50px;
+ }
+ .best-quality{
+    margin-left: 30px;
+    margin-top: 25px;
+    color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+ .circle-bg{
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: #7EB693;
+    border-radius: 69px;
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        color: #FFF;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+ }
+}
+// contact
+
+.contact-us-s1{
+    background-image: url(../img/Photo\ \(17\).png);
+    width: 100%;
+    height: 450px;background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    h2{
+        color: #274C5B;
+font-family: Roboto;
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+
+}
+
+}
+
+.contact-us-s2{
+    .contact-us-img{
+img{
+    width: 579px;
+    height: 579px;
+    border-radius: 20px;
+}
+margin-right: 30px;
+}
+.contact-us-s2-text{
+    margin-bottom: 90px;
+    .contact-h2{
+        color: #274C5B;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 700px;
+    }
+    p{
+        color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+width: 600px;
+    }
+}
+.contact-flex{
+    display: flex;
+    justify-content: center ;
+}
+.svg-div{
+    display: flex;
+    border-radius: 16px;
+border: 1px solid #EEE;
+background: #FFF;
+width: 352px;
+height: 113px;margin-bottom: 20px;
+
+}
+
+
+svg{
+    margin-top: 10px;
+
+    margin-left: 10px;
+}
+
+.messege{
+color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 25px;
+margin-left: 10px;
+}
+h3{
+    color: #525C60;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+margin-left: 10px;
+}
+}
+
+.contact-us-s3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    .contact-us-bg{
+        background-image: url(../img/Photo\ \(15\).jpg);
+        width: 1310px;
+        height: 600px;
+        border-radius: 30px;
+     .contact-us-bg2{
+        width: 514px;
+        height: 514px;
+        background-color: white;
+        border-radius: 30px;
+        margin-left: 750px;
+        margin-top: 50px;
+        .center{
+          margin-left: 30px;
+        }
+        h3{
+            font-family: Noto Serif Georgian;
+            color: #7EB693;
+
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+        h2{
+            color: #274C5B;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 10px;
+        }
+        p{
+            color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+width: 400px;
+
+        }
+        h4{
+          
+            color: #525C60;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%;
+margin-bottom: 10px;
+        }
+        span{
+            color: #525C60;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 165.4%; /* 29.772px */
+
+        }
+.contact-us-flex{
+    display: flex;
+i{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+}
+     }   
+    }
+}
+
+.contact-us-s4{
+    .name-email-input{
+        display: flex;
+        justify-content: center;
+        label{
+            color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+    
+        }
+        .hover-input{
+            margin-bottom: 50px;
+            :hover{
+                background-color: #7EB693;
+                transition: 1s;
+            }
+        }
+        input{
+            margin-top: 20px;
+            margin-right: 30px;
+            border-radius: 16px;
+        border: 1px solid #7EB693;
+      
+        width: 500px;
+        height: 60px;
+        padding-left: 30px;
+    
+        }
+    }
+ 
+    .Company-subject-input{
+        margin-bottom: 30px;
+                display: flex;
+        justify-content: center;
+        label{
+            color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+    
+        }
+        .hover-input{
+          
+            :hover{
+                background-color: #7EB693;
+                transition: 1s;
+            }
+        }
+        input{
+            margin-top: 20px;
+            margin-right: 30px;
+            border-radius: 16px;
+        border: 1px solid #7EB693;
+      
+        width: 500px;
+        height: 60px;
+        padding-left: 30px;
+    
+        }
+    }
+
+    .submit-hover{
+        :hover{
+            transform: scale(1.1);
+        transition: all  1s;
+        }
+    }
+ .send-message{
+    color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-color: $text-color;
+border-radius: 16px;
+border: none;
+width: 250px;
+height: 70px;
+margin-left: 268px;
+margin-top: 30px;
+cursor: pointer;
+margin-bottom: 100px;
+
+ }
+ 
+
+
+ .textarea{
+   
+  
+    margin-left: 268px;
+    #message{
+        border-radius: 16px;
+    border: 1px solid #7EB693;
+    
+        resize: none;
+        
+    
+     }
+     .message1{
+        color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+    
+     }
+     .message{
+        margin-top: 30px;
+    :hover{
+        background-color: #7EB693;
+        transition: 1s;
+    }
+     }
+ }
+    }
