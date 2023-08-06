@@ -22,3 +22,12 @@ margin-top: 330px;
 margin-left: 31px;
 
 }
+
+@mixin second-font{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; 
+}

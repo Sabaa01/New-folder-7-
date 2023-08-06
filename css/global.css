@@ -82,15 +82,19 @@ header li {
   margin-top: 40px;
 }
 header .serch {
-  margin-left: 444px;
   margin-top: 50px;
 }
-header .cart {
+header .login-a {
+  margin-left: 444px;
+}
+
+.cart {
   margin-top: 50px;
   margin-left: 30px;
   margin-right: 10px;
 }
-header .cart-t {
+
+.cart-t {
   color: #274C5B;
   font-family: Roboto;
   font-size: 18px;
@@ -738,7 +742,6 @@ li i {
 .s7 .flex {
   height: 300px;
   display: flex;
-  animation: mymove 5s infinite;
   justify-content: space-evenly;
 }
 .s7 .s7-bg {
@@ -791,14 +794,6 @@ li i {
   transition: all 1s;
 }
 
-@keyframes mymove {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(10px);
-  }
-}
 .s8 .s8-traning {
   color: #7EB693;
   font-family: Yellowtail;
@@ -824,7 +819,7 @@ li i {
 }
 .s8 .channel :hover {
   transform: scale(1.1);
-  transition: all 1s;
+  transition: all linear 1s;
 }
 .s8 .videos-button {
   cursor: pointer;
@@ -1255,7 +1250,7 @@ footer .flex .footer-div3 ul li {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 165.4%; /* 29.772px */
+  line-height: 165.4%;
 }
 .about-us-s3 .backgorund-color {
   margin-bottom: 20px;
@@ -1837,7 +1832,7 @@ footer .flex .footer-div3 ul li {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 165.4%; /* 29.772px */
+  line-height: 165.4%;
   width: 400px;
   margin-left: 50px;
 }
@@ -1950,7 +1945,7 @@ footer .flex .footer-div3 ul li {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 165.4%; /* 29.772px */
+  line-height: 165.4%;
   width: 600px;
 }
 .contact-us-s2 .contact-flex {
@@ -2036,7 +2031,7 @@ footer .flex .footer-div3 ul li {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 165.4%; /* 29.772px */
+  line-height: 165.4%;
   width: 400px;
 }
 .contact-us-s3 .contact-us-bg .contact-us-bg2 h4 {
@@ -2164,4 +2159,320 @@ footer .flex .footer-div3 ul li {
 .contact-us-s4 .textarea .message :hover {
   background-color: #7EB693;
   transition: 1s;
+}
+
+.news-s1 {
+  margin-bottom: 100px;
+  background-image: url(../img/Photo\ \(16\).png);
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-s1 h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.news-s2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.news-s2 .bg-news {
+  margin-left: 30px;
+  background-image: url(../img/Photo\ \(19\).png);
+  width: 600px;
+  height: 150px;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  padding-top: 370px;
+  margin-bottom: 150px;
+}
+.news-s2 .bg-news .circle-bg {
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 23px;
+  background-color: white;
+  border-radius: 69px;
+  width: 69px;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-s2 .bg-news .circle-bg h2 {
+  color: #274C5B;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.news-s2 .bg-news .news-white-bg {
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  margin-left: 45px;
+  border-radius: 30px;
+}
+.news-s2 .bg-news .news-white-bg h3 {
+  padding-top: 20px;
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.news-s2 .bg-news .news-white-bg h3 i {
+  margin-right: 8px;
+}
+.news-s2 .bg-news .news-white-bg h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.news-s2 .bg-news .news-white-bg p {
+  margin-bottom: 10px;
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+}
+.news-s2 .bg-news .news-white-bg h4 {
+  margin-bottom: 10px;
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.news-s2 .bg-news .news-white-bg div {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.login-main {
+  padding-top: 100px;
+}
+.login-main main {
+  z-index: 100;
+}
+.login-main body {
+  background-color: grey;
+  padding: 90px;
+}
+.login-main .box {
+  width: 600px;
+  height: 700px;
+  background-color: #23242a;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 6px 60px;
+  overflow: hidden;
+}
+.login-main .box::before {
+  content: " ";
+  position: absolute;
+  top: -50%;
+  left: -40%;
+  width: 600px;
+  height: 790px;
+  /* background: linear-gradient(
+      #1f4037, #99f2c8
+
+  ); */
+  background-color: yellow;
+  transform-origin: bottom right;
+  animation: animate 3s linear infinite;
+}
+.login-main .box::after {
+  content: " ";
+  position: absolute;
+  bottom: -60%;
+  right: -40%;
+  width: 500px;
+  height: 790px;
+  background: linear-gradient(109.6deg, rgb(255, 230, 109) 11.2%, rgb(87, 232, 107) 100.2%);
+  transform-origin: top left;
+  animation: animate 3s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.login-main form {
+  position: absolute;
+  inset: 5px;
+  border-radius: 6px 60px;
+  background-color: #23242a;
+  z-index: 10;
+}
+.login-main h2 {
+  margin-top: 10px;
+  color: yellow;
+  font-size: 60px;
+  font-family: "roboto";
+  text-align: center;
+  font-weight: 600;
+}
+.login-main .inputbox {
+  position: relative;
+  width: 300px;
+  margin-top: 80px;
+}
+.login-main .inputbox input {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  width: 550px;
+  padding: 20px 10px 10px;
+}
+.login-main .Login {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "roboto";
+  border: none;
+  outline: none;
+  background-color: yellow;
+  margin-top: 20px;
+  border-radius: 90px;
+  cursor: pointer;
+  width: 590px;
+  height: 40px;
+}
+.login-main span {
+  color: yellow;
+  font-family: "roboto";
+  font-size: 20px;
+  font-weight: 600;
+}
+.login-main .Username {
+  border-radius: 20px;
+  background-color: #23242a;
+  border: 3px solid yellow;
+  transition: 1s;
+  outline: none;
+}
+.login-main .password {
+  border-radius: 20px;
+  background-color: #23242a;
+  border: 3px solid yellow;
+  transition: 1s;
+  outline: none;
+}
+.login-main .inputbox :hover {
+  background-color: yellow;
+}
+.login-main ::-moz-placeholder {
+  color: yellow;
+  opacity: 1;
+}
+.login-main ::placeholder {
+  color: yellow;
+  opacity: 1;
+}
+.login-main .login-color :hover {
+  background: linear-gradient(#1f4037, #99f2c8);
+}
+
+@media (max-width: 1024px) {
+  header .login-a {
+    margin-left: 50px;
+  }
+  header .cart {
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+  .s2 .img-div {
+    width: 500px;
+  }
+  .s2 .img-div img {
+    width: 500px;
+  }
+  .s2 .text-div {
+    width: 500px;
+  }
+  .s2 .text-div h2 {
+    font-size: 20px;
+    height: 30px;
+  }
+  .s2 .text-div .read {
+    margin-top: 60px;
+  }
+  .s2 .text-div .organic-p {
+    width: 400px;
+    height: 50px;
+  }
+  .s2 .text-div p {
+    font-size: 15px;
+    height: 30px;
+  }
+  .s2 .text-div h3 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .s2 .text-div input {
+    margin-top: 30px;
+    width: 136px;
+  }
+  .s3 .shop-div-main {
+    width: 786.361px;
+  }
+  .s3 .shop-button {
+    margin-left: 400px;
+  }
+  .s4 .s4-main-div .profile {
+    margin-left: 443px;
+  }
+  .s4 .s4-main-div .rate-for-costumer {
+    margin-left: 454px;
+  }
+  .s4 .s4-main-div .costumer {
+    margin-left: 455px;
+  }
+  .s4 .s4-main-div .comentar {
+    margin-left: 202px;
+  }
+  .s4 .s4-main-div .circle {
+    margin-left: 469px;
+  }
+  .s4 .s4-main-div .cirle-rate {
+    margin-left: 202px;
+  }
+  .s5 {
+    height: 1301px;
+  }
+  .s5 .shop-div-main2 {
+    width: 724.361px;
+  }
+  .s6 .s6-div {
+    left: 363px;
+    top: 7517px;
+  }
+  .s7 .s7-bg {
+    background-size: 329px;
+  }
+  .s7 .s7-bg2 {
+    background-size: 253px;
+  }
 }/*# sourceMappingURL=global.css.map */
