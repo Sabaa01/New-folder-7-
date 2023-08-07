@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -2718,8 +2725,8 @@ footer .flex .footer-div3 ul li {
   opacity: 1;
 }
 .login-main .login-color :hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1f4037), to(#99f2c8));
   background: -o-linear-gradient(#1f4037, #99f2c8);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1f4037), to(#99f2c8));
   background: linear-gradient(#1f4037, #99f2c8);
 }
 
