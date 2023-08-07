@@ -241,8 +241,7 @@ font-weight: 900;
 
 }
   h2{
-    color: #274C5B;
-font-family: Roboto;
+    @include main-font;
 font-size: 50px;
 font-style: normal;
 font-weight: 800;
@@ -260,12 +259,9 @@ margin-top: 30px;
   .organic{
     margin-left: 67px;
     margin-top: 48.5px ;
-    color: #274C5B;
-    font-family: Roboto;
+    @include main-font;
     font-size: 25px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
   }
   .organic-p{
     margin-top: -10px;
@@ -280,12 +276,11 @@ width: 700px;
 
   .quality{ margin-left: 67px;
     margin-top: 35px;
-    color: #274C5B;
-font-family: Roboto;
+    @include main-font;
 font-size: 25px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+
+
   }
   .quality-p{
     margin-top: -10px;
@@ -330,13 +325,11 @@ line-height: normal;
 text-align: center;
 }
 .product{
-    color: #274C5B;
+
 text-align: center;
-font-family: Roboto;
+@include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 margin-bottom: 30px;
 }
 
@@ -458,13 +451,8 @@ margin-bottom: 150px;
         width: 100%;
 
         .costumers-h2{
-            color: #274C5B;
-
-font-family: Roboto;
+            @include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
 text-align: center;
 margin-bottom: 100px;
         }
@@ -666,12 +654,9 @@ font-weight: 700;
 line-height: normal;
     }
     h2{ margin-left: 50px;
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 width: 500px;
     }
     .gym{ margin-left: 50px;
@@ -778,12 +763,9 @@ margin-left: 150px;
     margin-left: 150px;
     margin-right: 693px;
     margin-bottom: 20px;
-    color: #274C5B;
-font-family: Roboto;
+    @include main-font;
 font-size: 50px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
 }
 .channel{
 
@@ -848,12 +830,8 @@ line-height: normal;
                 margin-right: 5px;               
                }
             .traning-h2-for-s8{
-                color: #274C5B;
-font-family: Roboto;
+                @include main-font;
 font-size: 25px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
 margin-left: 30px;
 margin-bottom: 10px;
             }
@@ -1093,12 +1071,10 @@ line-height: 165.4%;
     background-image: url(../img/Photo\ \(12\).png);
     background-repeat: no-repeat;
 .about-us-header{
-    color: #274C5B;
-font-family: Roboto;
+    @include main-font;
 font-size:100px;
 font-style: normal;
-font-weight: 800;
-line-height: normal;
+
     padding-top: 90px;
     text-align: center;
 }
@@ -1122,12 +1098,8 @@ line-height: normal;
 margin-bottom: 10px;
     }
     .Help{
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
 margin-bottom: 10px;
     }
     .dummy-text{
@@ -1218,12 +1190,8 @@ line-height: normal;
 }
 
     .return{
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 25px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
 margin-bottom: 10px;
     }
     
@@ -1258,12 +1226,9 @@ line-height: normal;
     }
     .wedontbuy{
         
-        color: #274C5B;
-font-family: Roboto;
+ @include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 
     }
     p{margin-bottom: 60px;
@@ -1276,12 +1241,8 @@ line-height: normal;
 background: #ECECEC;
 width: 300px;
 height: 60px;
-h2{color: #274C5B;
-    font-family: Roboto;
+h2{ @include main-font;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
     text-align: center;
 padding-top: 20px;
 }
@@ -1315,12 +1276,9 @@ text-align: center;
 margin-bottom: 10px;
     }
     .team-h2{
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 text-align: center;
 margin-bottom: 20px;
     }
@@ -1355,12 +1313,9 @@ margin-bottom: 40px;
     background-repeat: no-repeat;
     border-radius: 20px;
     .giovani{
-        color: #274C5B;
-    font-family: Roboto;
+        @include main-font;
     font-size: 25px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+
     padding-top: 500px;
     margin-bottom: 5px;
     }
@@ -1395,12 +1350,9 @@ margin-bottom: 40px;
     background-repeat: no-repeat;
     border-radius: 20px;
     .giovani{
-        color: #274C5B;
-    font-family: Roboto;
+        @include main-font;
     font-size: 25px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+
     padding-top: 500px;
     margin-bottom: 5px;
     }
@@ -1431,12 +1383,9 @@ margin-bottom: 40px;
     border-radius: 20px;
     box-shadow: 0px 10px 20px grey ;
     .giovani{
-        color: #274C5B;
-    font-family: Roboto;
+        @include main-font;
     font-size: 25px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+
     padding-top: 500px;
     margin-bottom: 5px;
     }
@@ -1473,12 +1422,10 @@ margin-bottom: 40px;
             transition: all linear 1s;
         }
 .giovani{
-    color: #274C5B;
+    @include main-font;
 font-family: Roboto;
 font-size: 25px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 padding-top: 500px;
 margin-bottom: 5px;
 }
@@ -1615,12 +1562,9 @@ animation: bumpAnimation 1s ease-in-out infinite;
     background-image: url(../img/Photo\ \(13\).png);
     h2{
         text-align: center;
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 200px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;    padding-top: 56px;
+ padding-top: 56px;
     }
     margin-bottom: 100px;
 }
@@ -1636,13 +1580,13 @@ line-height: normal;
 text-align: center;
     }
     .better-life{
-        color: #274C5B;
+      
 text-align: center;
-font-family: Roboto;
+@include main-font;
 font-size: 50px;
-font-style: normal;
+
 font-weight: 800;
-line-height: normal;
+
 text-align: center;
     }
 
@@ -1754,13 +1698,13 @@ padding-top: 200px;
 
     }
     h2{
-        color: #274C5B;
+     
 text-align: center;
-font-family: Roboto;
+@include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+
+
 margin-bottom: 20px;
     }
     p{
@@ -1798,12 +1742,9 @@ margin-bottom: 20px;
     background-size: 1800px;
     margin-bottom: 100px;
     h2{
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 100px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 text-align: center;
 padding-top: 180px;
     }
@@ -1819,12 +1760,9 @@ padding-top: 180px;
                 }
     }
 .natural2{
-    color: #274C5B;
-    font-family: Roboto;
+    @include main-font;
     font-size: 50px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+
     margin-left: 400px;
     margin-bottom: 20px;
 }
@@ -1872,12 +1810,9 @@ margin-bottom: 90px;
         border-radius: 20px;
     }
     .clean-product{
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 25px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
 margin-top: 60px;
 margin-left: 50px;
 margin-bottom: 10px;
@@ -1890,12 +1825,9 @@ margin-left: 50px;
     }
 }
  .healty-services{
-    color: #274C5B;
-font-family: Roboto;
+  @include main-font;
 font-size: 35px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
 margin-left: 400px;
  }
  .healty-services-p{
@@ -1966,12 +1898,9 @@ line-height: normal;
     justify-content: center;
     margin-bottom: 200px;
     h2{
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 70px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 
 
 }
@@ -1990,12 +1919,9 @@ margin-right: 30px;
 .contact-us-s2-text{
     margin-bottom: 90px;
     .contact-h2{
-        color: #274C5B;
-font-family: Roboto;
+        @include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 width: 700px;
     }
     p{
@@ -2025,12 +1951,9 @@ svg{
 }
 
 .messege{
-color: #274C5B;
-font-family: Roboto;
+    @include main-font;
 font-size: 25px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 margin-top: 25px;
 margin-left: 10px;
 }
@@ -2075,12 +1998,9 @@ font-weight: 400;
 line-height: normal;
         }
         h2{
-            color: #274C5B;
-font-family: Roboto;
+            @include main-font;
 font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 margin-bottom: 10px;
         }
         p{
@@ -2256,12 +2176,9 @@ margin-bottom: 100px;
         justify-content: center;
         align-items: center;
         h2{
-            color: #274C5B;
-font-family: Roboto;
+            @include main-font;
 font-size: 100px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
 
         }
     }
@@ -2322,12 +2239,9 @@ i{
 }
                 }
                 h2{
-                    color: #274C5B;
-                    font-family: Roboto;
+                    @include main-font;
                     font-size: 25px;
-                    font-style: normal;
-                    font-weight: 800;
-                    line-height: normal;
+
                     margin-bottom: 5px;
                 }
 
@@ -2750,7 +2664,13 @@ footer{
     
     }
 }
-
+.services-s1{
+    h2{
+        font-size: 100px;
+        text-align: left;
+        padding-top: 150px;
+    }
+}
 .services-s2{
     .img-div{    width: 469px;
     }
@@ -2763,6 +2683,34 @@ button{
         margin-left: -700px;
     }
 }
+.single-services-s1{
+    h2{
+        text-align: left;
+    }
+}
+.single-services-s2{
+    .natural2-p{
+        
+        margin-left: 88px;
+    }
+    .flex-single-services{
+        img{
+            border-radius: 20px;
+            margin-left: 41px;
+        }
+        .clean-div2{
+            margin-left: 39px;
+        }
+        .healty-services-p{
+            margin-left: 152px;
+        }
+
+    }
+    .quality-sup{
+        margin-left: 51px;
+    }
+}
+
 .contact-us-s2{
     .contact-us-img{
         img{
@@ -2970,6 +2918,7 @@ button{
     }
  
     .flex-offer{
+        
         flex-wrap: wrap;
 
     }
@@ -2996,6 +2945,53 @@ button{
 .services-s4{
     div{
         margin-left: -863px;
+    }
+}
+
+.single-services-s1{
+    h2{
+        text-align: left;
+        font-size: 90px;
+    }
+}
+.single-services-s2{
+    .natural2{
+        margin-left: 201px;
+    }
+    .natural2-p{
+        width: 537px;
+        height: 189px;
+        margin-left: 88px;
+    }
+    .flex-single-services{
+        margin-left: 48px;
+        flex-wrap: wrap;
+        .clean-div{
+            margin-bottom: 172px;
+        }
+        .diary-products2{
+            margin-left: 109px;
+        }
+        img{
+            border-radius: 20px;
+            margin-left: 41px;
+            margin-left: 105px;
+        }
+        .clean-div2{
+            margin-left: 39px;
+        }
+
+
+    }
+    .healty-services{
+        margin-left: 300px;
+    }
+    .healty-services-p{
+        margin-left: 18px;
+        width: 707px;
+    }
+    .quality-sup{
+        margin-left: 51px;
     }
 }
 .contact-us-s2{
@@ -3035,10 +3031,31 @@ button{
         }
     }
 }
+.s9{
+    .background{
+        width: 739px;
+        #comment{
+            margin-left: 346px;
+            width: 229px;
+        }
+    }
+}
 }
  
 @media (max-width:480px){
-  
+  .login-main{
+    .Login{
+        width: 399px;
+    }
+    .inputbox{
+        input{
+            width: 372px;
+        }
+    }
+    .box{
+        width: 414px
+    }
+  }
   header{
     height: 100px;
 
@@ -3136,10 +3153,16 @@ button{
         }
     }
     .s9{
+        
         .background{
-            height: 232px;
+            width: 454px;
+            height: 369px;
             #comment{
                 margin-left: 9px;
+            }
+            .sub-button{
+                margin-top: 3px;
+                margin-left: 296px;
             }
             #mail{
                 margin-top: 120px;
@@ -3155,7 +3178,7 @@ button{
                 margin-bottom: 10px;
             }
             .footer-div3{
-                width: 477px;
+                width: 460px;
             }
         }
     }
@@ -3237,69 +3260,130 @@ svg{
     margin-left: 174px;
 }
 }
-.contact-us-s1{
-    height: 195px;
-}
-.contact-us-s2{
-    .contact-us-img{
-        img{
-            width: 411px;
-        }
+
+.single-services-s1{
+    h2{
+        text-align: left;
+        font-size: 58px;
     }
-    .contact-flex{
+}
+.single-services-s2{
+   .grey-bg{
+    margin-bottom: 30px;
+   }
+   
+    
+    .natural2{
+        margin-left: 84px;
+    }
+    .natural2-p{
+        width: 369px;
+        height: 288px;
+        margin-left: 62px;
+    }
+    .flex-single-services{
+        margin-left: -53px;
         flex-wrap: wrap;
+        .clean-div{
+            margin-bottom: 172px;
+        }
+        .diary-products2{
+            margin-left: 83px;
+        }
+        img{
+            border-radius: 20px;
+            margin-left: 41px;
+            margin-left: 105px;
+        }
+        .clean-div2{
+            margin-left: 39px;
+        }
+
+
     }
-}
-.contact-us-s3{
-    .contact-us-bg{
-        .contact-us-bg2{
-            margin-left: 7px;
-            width: 450px;
-        
+    .healty-services{
+        margin-left: 176px;
+    }
+    .healty-services-p{
+        margin-left: 60px;
+        width: 378px;
+    }
+    .best-quality{
+        margin-left: 15px;
+    }
+    }
+    .quality-sup{
+        flex-wrap: wrap;
+
+        margin-left: 51px;
+
+    }
+
+    .contact-us-s1{
+        height: 195px;
+    }
+    .contact-us-s2{
+        .contact-us-img{
+            img{
+                width: 411px;
+            }
+        }
+        .contact-flex{
+            flex-wrap: wrap;
         }
     }
-}
-.contact-us-s4{
-    .name-email-input{
-        input{
-            width: 157px;
+    .contact-us-s3{
+        .contact-us-bg{
+            .contact-us-bg2{
+                margin-left: 7px;
+                width: 450px;
+            
+            }
         }
     }
-    .Company-subject-input{
-        input{
-            width: 157px;
+    .contact-us-s4{
+        .name-email-input{
+            input{
+                width: 157px;
+            }
+        }
+        .Company-subject-input{
+            input{
+                width: 157px;
+            }
+        }
+        textarea{
+            width: 410px;
+        }
+        .send-message{
+            margin-left: 107px;
         }
     }
-    textarea{
-        width: 410px;
+    .news-s2{
+        .bg-news{
+            .news-white-bg{
+                width: 433px;
+                margin-left: 13px;
+            }
+        }
     }
-    .send-message{
-        margin-left: 107px;
+    
+    .news-s1{h2{
+        font-size: 70px;
+    }}
+    
+    .bar{
+        width: 50px;
+        height: 50px;
     }
-}
-.news-s2{
-    .bg-news{
-        .news-white-bg{
-            width: 433px;
-            margin-left: 13px;
+    header{
+        nav{
+            visibility: hidden;
         }
     }
 }
 
-.news-s1{h2{
-    font-size: 70px;
-}}
 
-.bar{
-    width: 50px;
-    height: 50px;
-}
-header{
-    nav{
-        visibility: hidden;
-    }
-}
-}
 
 
 

@@ -31,3 +31,11 @@ margin-left: 31px;
     font-weight: 400;
     line-height: 165.4%; 
 }
+
+@mixin main-font{
+    color: #274C5B;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
